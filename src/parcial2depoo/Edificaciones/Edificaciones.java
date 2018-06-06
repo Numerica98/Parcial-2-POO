@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parcial2depoo.Animan;
+package parcial2depoo.Edificaciones;
 
 /**
  *
  * @author Melissa
  */
-public interface Animan {
-    void atacar();
+public interface Edificaciones {
+    void construir();
 }

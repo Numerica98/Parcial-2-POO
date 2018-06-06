@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parcial2depoo.Animan;
+package parcial2depoo.Edificaciones;
 
 /**
  *
  * @author Melissa
  */
-public class EspecialistaCamalean implements Animan{
+public class Recursos implements Edificaciones{
 
     @Override
-    public void atacar() {
+    public void construir() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

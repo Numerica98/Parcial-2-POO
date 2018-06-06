@@ -5,16 +5,15 @@
  */
 package parcial2depoo.AbstractFactoryJuego;
 
-import parcial2depoo.Animan.Animan;
-import parcial2depoo.DuendesYHadas.DuendesYHadas;
-import parcial2depoo.Hechiceros.Hechiceros;
+import parcial2depoo.Edificaciones.Edificaciones;
+import parcial2depoo.Razas.Razas;
 
 /**
  *
  * @author Melissa
  */
 public interface AbstractFactoryJuego {
-    DuendesYHadas getDuendesYHadas(String tipo);
-    Hechiceros getHechiceros(String tipo);
-    Animan getAniman(String tipo);
+    
+    Edificaciones getEdificaciones(String tipo);
+    Razas getRazas(String tipo);
 }

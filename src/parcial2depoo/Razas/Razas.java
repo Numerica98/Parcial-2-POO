@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parcial2depoo.Hechiceros;
+package parcial2depoo.Razas;
 
 /**
  *
  * @author Melissa
  */
-public interface Hechiceros {
+public interface Razas {
     void atacar();
+    void morir();
 }
