@@ -7,6 +7,9 @@ package parcial2depoo;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import parcial2depoo.AbstractFactoryJuego.AbstractFactoryJuego;
+import parcial2depoo.AbstractFactoryJuego.FactoryProducerJuego;
+import parcial2depoo.Edificaciones.Edificaciones;
 
 /**
  *
@@ -36,6 +39,7 @@ public class MenuDeJugador {
     public void Menu(){
         int opcion =6;
         Scanner dato= new Scanner(System.in);
+        AbstractFactoryJuego factory;
         
         while (opcion !=5){
             opcionesDelMenu();
@@ -44,6 +48,11 @@ public class MenuDeJugador {
                 
                 switch(opcion){
                     case 1:
+                        factory =  FactoryProducerJuego.getFactory("Edificaciones");
+                        System.out.println("¿Que tipo de edificio desea construir? (Milicia, Recursos o Vehiculos)");
+                        String tipo= dato.nextLine();
+                        Edificaciones edificio = factory.getEdificaciones(tipo);
+                        edificio.construir();
                         break;
                     case 2:
                         break;

@@ -13,4 +13,5 @@ public class Jugador {
     private String nombre;
     private String raza;
     
+    public Jugador(){}
 }
