@@ -5,13 +5,21 @@
  */
 package parcial2depoo;
 
+import parcial2depoo.Razas.Razas;
+
 /**
  *
  * @author Melissa
  */
 public class Jugador {
     private String nombre;
-    private String raza;
+    private Razas raza;
+    //private Recursos recurso;
+
+    public Jugador(String nombre, Razas raza) {
+        this.nombre = nombre;
+        this.raza = raza;
+    }
     
     public Jugador(){}
 }
