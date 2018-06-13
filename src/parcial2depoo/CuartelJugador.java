@@ -10,5 +10,5 @@ package parcial2depoo;
  * @author Melissa
  */
 public class CuartelJugador {
-    //public ArrayList<Recursos> recursos= new ArrayList;
+    //public ArrayList<Edificaciones> edificaciones= new ArrayList();
 }

@@ -49,10 +49,10 @@ public class MenuDeJugador {
                 switch(opcion){
                     case 1:
                         factory =  FactoryProducerJuego.getFactory("Edificaciones");
-                        System.out.println("¿Que tipo de edificio desea construir? (Milicia, Recursos o Vehiculos)");
+                        System.out.print("¿Que tipo de edificio desea construir? (Milicia, Recursos o Vehiculos) ");
                         String tipo= dato.nextLine();
                         Edificaciones edificio = factory.getEdificaciones(tipo);
-                        edificio.construir();
+                        //edificio.construir();//¿Como mandarlo al arrayList de las edificaciones?
                         break;
                     case 2:
                         break;

@@ -15,11 +15,12 @@ public class Jugador {
     private String nombre;
     private Razas raza;
     //private Recursos recurso;
+    //private Edificaciones edificacion;
 
     public Jugador(String nombre, Razas raza) {
         this.nombre = nombre;
         this.raza = raza;
     }
     
-    public Jugador(){}
+    
 }

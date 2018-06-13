@@ -17,7 +17,7 @@ import parcial2depoo.Razas.Razas;
  */
 public class MenuInicial {
     
-    public void DatosJugador(){
+    public static void DatosJugador(){
         Scanner dato= new Scanner(System.in);
         AbstractFactoryJuego factory;
         System.out.println("------JUGADOR 1-----");
@@ -29,6 +29,8 @@ public class MenuInicial {
         factory= FactoryProducerJuego.getFactory("Razas");
         Razas razaJ1= factory.getRazas(razaJugador1);
         Jugador j1 = new Jugador(jugador1,razaJ1);
+        
+        System.out.println("");
         
         System.out.println("------JUGADOR 2-----");
         System.out.print("Ingrese su nombre: ");
