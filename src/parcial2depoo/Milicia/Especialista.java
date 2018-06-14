@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parcial2depoo.Edificaciones;
+package parcial2depoo.Milicia;
 
 /**
  *
  * @author Melissa
  */
-public class Milicia implements Edificaciones{
+public class Especialista implements Milicia{
 
     @Override
-    public void construir() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void atacar() {
+        System.out.println("El especialista ataco el objetivo");
     }
     
 }

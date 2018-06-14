@@ -6,7 +6,9 @@
 package parcial2depoo.AbstractFactoryJuego;
 
 import parcial2depoo.Edificaciones.Edificaciones;
+import parcial2depoo.Milicia.Milicia;
 import parcial2depoo.Razas.Razas;
+import parcial2depoo.Vehiculo.Vehiculo;
 
 /**
  *
@@ -14,6 +16,8 @@ import parcial2depoo.Razas.Razas;
  */
 public interface AbstractFactoryJuego {
     
-    Edificaciones getEdificaciones(String tipo);
-    Razas getRazas(String tipo);
+    Edificaciones getEdificaciones(int tipo);
+    Razas getRazas(int tipo);
+    Milicia getMilicia(int tipo);
+    Vehiculo getVehiculo(int tipo);
 }

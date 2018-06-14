@@ -3,21 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parcial2depoo.Razas;
+package parcial2depoo.Vehiculo;
 
 /**
  *
  * @author Melissa
  */
-public class DuendesYHadas implements Razas{
+public class Aereo implements Vehiculo{
 
     @Override
     public void atacar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void morir() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

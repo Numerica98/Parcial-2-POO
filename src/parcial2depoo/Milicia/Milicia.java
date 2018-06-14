@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parcial2depoo.Edificaciones;
+package parcial2depoo.Milicia;
 
 /**
  *
  * @author Melissa
  */
-public interface Edificaciones {
-    void producir();
+public interface Milicia {
+    void atacar();
 }

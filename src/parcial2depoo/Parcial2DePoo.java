@@ -23,9 +23,8 @@ public class Parcial2DePoo {
         System.out.println("Así que ¡no esperen mas! Ingresen sus nombres y la raza a escoger por favor");
         System.out.println("");
         
-        MenuInicial.DatosJugador();
-        MenuDeJugador menu= MenuDeJugador.getInstance();
-        menu.Menu();
+        MenuInicial.MenuPrincipal();
+        
     }
     
 }

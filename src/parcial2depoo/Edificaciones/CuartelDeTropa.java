@@ -9,7 +9,7 @@ package parcial2depoo.Edificaciones;
  *
  * @author Melissa
  */
-public class Recursos implements Edificaciones{
+public class CuartelDeTropa implements Edificaciones{
 
     @Override
     public void producir() {

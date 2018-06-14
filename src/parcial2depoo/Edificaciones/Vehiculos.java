@@ -12,7 +12,7 @@ package parcial2depoo.Edificaciones;
 public class Vehiculos implements Edificaciones{
 
     @Override
-    public void construir() {
+    public void producir() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

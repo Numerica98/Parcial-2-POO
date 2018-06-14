@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parcial2depoo.Razas;
+package parcial2depoo.Vehiculo;
 
 import parcial2depoo.AbstractFactoryJuego.AbstractFactoryJuego;
 import parcial2depoo.Edificaciones.Edificaciones;
 import parcial2depoo.Milicia.Milicia;
-import parcial2depoo.Vehiculo.Vehiculo;
+import parcial2depoo.Razas.Razas;
 
 /**
  *
  * @author Melissa
  */
-public class FactoryRazas implements AbstractFactoryJuego{
+public class FactoryVehiculo implements AbstractFactoryJuego{
 
     @Override
     public Edificaciones getEdificaciones(int tipo) {
@@ -23,14 +23,6 @@ public class FactoryRazas implements AbstractFactoryJuego{
 
     @Override
     public Razas getRazas(int tipo) {
-        switch(tipo){
-            case 1:
-                return new Animan();
-            case 2:
-                return new Duendes();
-            case 3:
-                return new Hechiceros();
-        }
         return null;
     }
 
@@ -41,6 +33,12 @@ public class FactoryRazas implements AbstractFactoryJuego{
 
     @Override
     public Vehiculo getVehiculo(int tipo) {
+        switch(tipo){
+            case 1:
+                return new Terrestre();
+            case 2:
+                return new Aereo();
+        }
         return null;
     }
     

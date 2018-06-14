@@ -6,19 +6,25 @@
 package parcial2depoo.AbstractFactoryJuego;
 
 import parcial2depoo.Edificaciones.FactoryEdificaciones;
+import parcial2depoo.Milicia.FactoryMilicia;
 import parcial2depoo.Razas.FactoryRazas;
+import parcial2depoo.Vehiculo.FactoryVehiculo;
 
 /**
  *
  * @author Melissa
  */
 public class FactoryProducerJuego {
-    public static AbstractFactoryJuego getFactory(String tipo){
+    public static AbstractFactoryJuego getFactory(int tipo){
         switch(tipo){
-            case "Razas":
+            case 1:
                 return new FactoryRazas();
-            case "Edificaciones":
+            case 2:
                 return new FactoryEdificaciones();
+            case 3:
+                return new FactoryMilicia();
+            case 4:
+                return new FactoryVehiculo();
         }
         return null;
     }

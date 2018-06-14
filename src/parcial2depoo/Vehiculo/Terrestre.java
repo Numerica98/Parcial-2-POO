@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parcial2depoo.Edificaciones;
+package parcial2depoo.Vehiculo;
 
 /**
  *
  * @author Melissa
  */
-public class Recursos implements Edificaciones{
+public class Terrestre implements Vehiculo{
 
     @Override
-    public void producir() {
+    public void atacar() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
