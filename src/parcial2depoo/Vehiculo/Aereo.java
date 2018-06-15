@@ -6,7 +6,7 @@
 package parcial2depoo.Vehiculo;
 
 /**
- *
+ * Clase encargada de los vehiculos aereos
  * @author Melissa
  */
 public class Aereo implements Vehiculo{

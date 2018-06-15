@@ -6,7 +6,7 @@
 package parcial2depoo.Milicia;
 
 /**
- *
+ * Clase encargada del especialista de la milicia
  * @author Melissa
  */
 public class Especialista implements Milicia{

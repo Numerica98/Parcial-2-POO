@@ -6,7 +6,7 @@
 package parcial2depoo.Milicia;
 
 /**
- *
+ * Interfaz comun de la milicia
  * @author Melissa
  */
 public interface Milicia {

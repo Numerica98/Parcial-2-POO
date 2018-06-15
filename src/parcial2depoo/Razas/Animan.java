@@ -6,7 +6,7 @@
 package parcial2depoo.Razas;
 
 /**
- *
+ * Clase encargada de la raza animan
  * @author Melissa
  */
 public class Animan implements Razas{

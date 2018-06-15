@@ -11,7 +11,7 @@ import parcial2depoo.Razas.Razas;
 import parcial2depoo.Vehiculo.Vehiculo;
 
 /**
- *
+ * Clase encargada de la fabricacion de los edificios
  * @author Melissa
  */
 public class FactoryEdificaciones implements AbstractFactoryJuego{
@@ -20,10 +20,13 @@ public class FactoryEdificaciones implements AbstractFactoryJuego{
     public Edificaciones getEdificaciones(int tipo) {
         switch(tipo){
             case 1:
-                return new CuartelDeTropa();
+                System.out.println("\n Se creo el cuartel para las tropas");
+                return new CuartelDeMilicia();
             case 2:
+                System.out.println("\n Se creo la fabrica de vehiculos");
                 return new Vehiculos();
             case 3:
+                System.out.println("\n Se creo la fabrica de recursos");
                 return new Recursos();
         }
         return null;

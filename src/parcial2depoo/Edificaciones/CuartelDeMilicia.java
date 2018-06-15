@@ -5,19 +5,23 @@
  */
 package parcial2depoo.Edificaciones;
 
+import parcial2depoo.AbstractFactoryJuego.AbstractFactoryJuego;
+import parcial2depoo.AbstractFactoryJuego.FactoryProducerJuego;
 import parcial2depoo.Milicia.Milicia;
 import parcial2depoo.Vehiculo.Vehiculo;
 
 /**
- * Clase recursos, encargada de generarlos
+ * Clase encargada de ser el cuartel de la milicia y producir las tropas
  * @author Melissa
  */
-public class Recursos implements Edificaciones{
-    
+public class CuartelDeMilicia implements Edificaciones{
+   
     @Override
     public Milicia producirMilicia(int tipo) {
-        return null;
-    }    
+        AbstractFactoryJuego factory;
+        factory =  FactoryProducerJuego.getFactory(3);
+        return factory.getMilicia(tipo);       
+    }
 
     @Override
     public Vehiculo producirVehiculos(int tipo) {

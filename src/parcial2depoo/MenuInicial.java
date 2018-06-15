@@ -11,12 +11,16 @@ import parcial2depoo.AbstractFactoryJuego.FactoryProducerJuego;
 import parcial2depoo.Razas.Razas;
 
 /**
- *
+ * Esta clase realiza el menu de inicio y posteriormente los menus de las acciones de los jugadores
  * @author Melissa
  */
 public class MenuInicial {
+    //Variable para controlar el numero de las fases del juego
     static int fase=1;
     
+    /**
+     * Metodo que pide los datos de los jugadores y el menu de las acciones
+     */
     public static void MenuPrincipal(){
         Scanner dato= new Scanner(System.in);
         AbstractFactoryJuego factory;

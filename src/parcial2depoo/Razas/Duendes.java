@@ -6,7 +6,7 @@
 package parcial2depoo.Razas;
 
 /**
- *
+ * Clase encargada de la raza duendes
  * @author Melissa
  */
 public class Duendes implements Razas{

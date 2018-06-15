@@ -11,7 +11,7 @@ import parcial2depoo.Razas.FactoryRazas;
 import parcial2depoo.Vehiculo.FactoryVehiculo;
 
 /**
- *
+ * Clase que implementa la AbstractFactoryJuego para retornar las fabricas solicitadas
  * @author Melissa
  */
 public class FactoryProducerJuego {

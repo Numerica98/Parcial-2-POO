@@ -6,7 +6,7 @@
 package parcial2depoo.Vehiculo;
 
 /**
- *
+ * Interfaz comun de los vehiculos
  * @author Melissa
  */
 public interface Vehiculo {

@@ -11,7 +11,7 @@ import parcial2depoo.Milicia.Milicia;
 import parcial2depoo.Vehiculo.Vehiculo;
 
 /**
- *
+ * Clase encargada de fabricar las razas
  * @author Melissa
  */
 public class FactoryRazas implements AbstractFactoryJuego{
@@ -25,10 +25,13 @@ public class FactoryRazas implements AbstractFactoryJuego{
     public Razas getRazas(int tipo) {
         switch(tipo){
             case 1:
+                System.out.println("\n Felicidades ahora perteneces a la raza de los Animan");
                 return new Animan();
             case 2:
+                System.out.println("\n Felicidades ahora perteneces a la raza de los Duendes");
                 return new Duendes();
             case 3:
+                System.out.println("\n Felicidades ahora perteneces a la raza de los Hechiceros");
                 return new Hechiceros();
         }
         return null;

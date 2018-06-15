@@ -6,7 +6,7 @@
 package parcial2depoo.Razas;
 
 /**
- *
+ * Clase encargada de la raza Hechiceros
  * @author Melissa
  */
 public class Hechiceros implements Razas{

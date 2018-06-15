@@ -11,7 +11,7 @@ import parcial2depoo.Razas.Razas;
 import parcial2depoo.Vehiculo.Vehiculo;
 
 /**
- *
+ * Clase encargada de la fabricacion de la milicia
  * @author Melissa
  */
 public class FactoryMilicia implements AbstractFactoryJuego{

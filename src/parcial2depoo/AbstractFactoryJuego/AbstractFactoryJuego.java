@@ -11,7 +11,7 @@ import parcial2depoo.Razas.Razas;
 import parcial2depoo.Vehiculo.Vehiculo;
 
 /**
- *
+ * Interfaz que obtiene el tipo de fabrica a usar
  * @author Melissa
  */
 public interface AbstractFactoryJuego {

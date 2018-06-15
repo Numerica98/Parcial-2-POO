@@ -6,7 +6,7 @@
 package parcial2depoo.Milicia;
 
 /**
- *
+ * Clase del escuadron de la milicia
  * @author Melissa
  */
 public class Escuadron implements Milicia{

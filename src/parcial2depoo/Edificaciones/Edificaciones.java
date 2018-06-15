@@ -5,10 +5,15 @@
  */
 package parcial2depoo.Edificaciones;
 
+import parcial2depoo.Milicia.Milicia;
+import parcial2depoo.Vehiculo.Vehiculo;
+
 /**
- *
+ * Interfaz comun de las edificaciones
  * @author Melissa
  */
 public interface Edificaciones {
-    void producir();
+    Milicia producirMilicia(int tipo);
+    Vehiculo producirVehiculos(int tipo);
+    
 }

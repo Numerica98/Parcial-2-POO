@@ -6,7 +6,7 @@
 package parcial2depoo.Razas;
 
 /**
- *
+ * Interfaz comun de las razas
  * @author Melissa
  */
 public interface Razas {

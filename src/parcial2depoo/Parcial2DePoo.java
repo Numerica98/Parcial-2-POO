@@ -8,7 +8,7 @@ package parcial2depoo;
 
 
 /**
- *
+ * Clase principal donde se ejecuta el programa
  * @author Melissa
  */
 public class Parcial2DePoo {

@@ -5,15 +5,28 @@
  */
 package parcial2depoo.Edificaciones;
 
+import parcial2depoo.AbstractFactoryJuego.AbstractFactoryJuego;
+import parcial2depoo.AbstractFactoryJuego.FactoryProducerJuego;
+import parcial2depoo.Milicia.Milicia;
+import parcial2depoo.Vehiculo.Vehiculo;
+
 /**
- *
+ * Clase encargada de producir los vehiculos
  * @author Melissa
  */
 public class Vehiculos implements Edificaciones{
 
     @Override
-    public void producir() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Milicia producirMilicia(int tipo) {
+        return null;
     }
+
+    @Override
+    public Vehiculo producirVehiculos(int tipo) {
+        AbstractFactoryJuego factory;
+        factory =  FactoryProducerJuego.getFactory(4);
+        return factory.getVehiculo(tipo);  
+    }
+    
     
 }

@@ -6,7 +6,7 @@
 package parcial2depoo.Vehiculo;
 
 /**
- *
+ * Clase encargada de los vehiculos terrestres
  * @author Melissa
  */
 public class Terrestre implements Vehiculo{
