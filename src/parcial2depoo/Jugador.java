@@ -199,7 +199,7 @@ public class Jugador {
                         break;
                     default:
                         System.out.println("Por favor ingrese un numero de una de las opciones disponibles");
-                        break;
+                        
                 }
             } catch(InputMismatchException e){
                 System.out.println("Por favor ingrese un numero valido");
