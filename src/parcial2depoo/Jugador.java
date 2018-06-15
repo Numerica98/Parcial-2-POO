@@ -124,6 +124,7 @@ public class Jugador {
                    cuartelJugador.setRecurso3(cuartelJugador.getRecurso3()-200);
                 }
                 System.out.println("\n Se ha creado tu milicia");
+                break;
             case 3: 
                 System.out.println("\n-----EDIFICIOS EXISTENTES-----");
                 for (int i=0; i<Edificaciones.size(); i++ ){
@@ -147,6 +148,7 @@ public class Jugador {
                    cuartelJugador.setRecurso3(cuartelJugador.getRecurso3()-500);
                 }
                 System.out.println("\n Se ha creado tu vehiculo");
+                break;
             default:
                 System.out.println("Ingreso un termino invalido");
         }
@@ -194,8 +196,10 @@ public class Jugador {
                         break;
                     case 6:
                         bandera= false;
+                        break;
                     default:
                         System.out.println("Por favor ingrese un numero de una de las opciones disponibles");
+                        break;
                 }
             } catch(InputMismatchException e){
                 System.out.println("Por favor ingrese un numero valido");
